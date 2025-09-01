@@ -70,9 +70,9 @@ const Contact = () => {
         "service_xooz93r",
         "template_3we0ksb",
         {
-          from_name: form.name,
+          name: form.name,
           to_name: "Mansur Thapa",
-          from_email: form.email,
+          email: form.email,
           to_email: "mansurk184@gmail.com",
           message: form.message,
         },
