@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = '/Mansur_Thapa_AU_Resume.pdf';
+    const resumeUrl = 'mansur-portfolio/Mansur_Thapa_AU_Resume.pdf';
     window.open(resumeUrl);
   };
 
