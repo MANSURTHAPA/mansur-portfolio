@@ -10,12 +10,7 @@ import cpp from "./tech-stack/cpp.png";
 import java from "./tech-stack/java.png";
 
 // Import project images
-import weatherpedia from "./projects/WeatherPedia.png";
-import termpw from "./projects/termpw.png";
-import payloadmaster from "./projects/payloadmaster.png";
-import mhft from "./projects/mhft.png";
-import sketcher from "./projects/sketcher.png";
-import CompileVortex from "./projects/CompileVortex.png";
+import images from "./projects/image.png";
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -49,12 +44,7 @@ export {
   reactjs,
   tailwind,
   threejs,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  mhft,
-  sketcher,
-  CompileVortex,
+  images,
   logo,
   menu,
   close,

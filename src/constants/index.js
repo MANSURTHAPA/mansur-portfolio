@@ -11,15 +11,10 @@ import {
   nodejs,
   git,
   edunet,
-  weatherpedia,
-  termpw,
-  payloadmaster,
   threejs,
-  mhft,
-  sketcher,
   mathwork,
-  CompileVortex,
   eduskill,
+  images,
 } from "../assets";
 
 export const navLinks = [
@@ -88,111 +83,97 @@ export const experiences = [
     ],
   },
   {
-    title: "Software Developer & Tester",
+    title: "Full Stack  Developer",
     company_name: "Seva Development Pvt Ltd.",
     icon: mathwork,
     iconBg: "#161329",
-    date: "February 2020 - January 2023",
+    date: "July 2021 - February 2023",
     points: [
       "Developed and maintained web and mobile applications, improving usability and performance.",
-
-"Designed and executed test plans, identifying and fixing defects early in the cycle.",
-
-"Implemented automation testing on Shopify platform, reducing manual testing effort.",
-
-"Collaborated within an Agile team to deliver projects on time and within scope.",
+      "Designed and Integrated APIs for smooth data exchange and reporting",
+      "Implemented version control(GIT/Github),CI/CD practices",
+      "Colaborated witth designers and QA to ensure seamless user experience",
     ],
   },
   {
-    title: "Data QA Engineer Intern",
-    company_name: "LIS Nepal Ltd.",
+    title: "QA Engineer",
+    company_name: "Seva Development Pvt Ltd..",
     icon: edunet,
     iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "June 2019 - July 2021",
     points: [
-      "Supported data warehousing processes by validating data pipelines and ETL workflows.",
-
-"Wrote and optimized SQL queries for data validation, reporting, and issue resolution.",
-
-"Developed AWS scripts to automate data quality checks and streamline testing processes.",
-
-"Collaborated with data engineers to identify and fix inconsistencies across large datasets.",
+      "Conducted manual and automated testing of web and mobile app to ensure realibilit and performance ",
+      "Performed API testing on Swagger and Postman to ensure the relaibility and correctness of data process",
+      "Helped the team to write Selenium scripts to automate the testing process resulting to dedcution of manual testing load",
+      "Runned automated testing on shopify integrated system"
     ],
   },
+//   {
+//     title: "Data QA Engineer Intern",
+//     company_name: "LIS Nepal Ltd.",
+//     icon: edunet,
+//     iconBg: "#161329",
+//     date: "June 2023 - July 2023",
+//     points: [
+//       "Supported data warehousing processes by validating data pipelines and ETL workflows.",
+
+// "Wrote and optimized SQL queries for data validation, reporting, and issue resolution.",
+
+// "Developed AWS scripts to automate data quality checks and streamline testing processes.",
+
+// "Collaborated with data engineers to identify and fix inconsistencies across large datasets.",
+//     ],
+//   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Facial Recognition Attendance Managment System",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "IOT based project devloped on python and Raspberry PI using machine learning to recognise the students face and do the attendance.",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Raspberry PI", color: "green-text-gradient" },
+      { name: "Machine Learning", color: "pink-text-gradient" },
     ],
-    image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    youtubeId:"bTiCDams1nI?si=PQ9c9vDF0RAm16pe",
+    source_code_link: "https://github.com/MANSURTHAPA/AttendanceManagementSystem.git",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Vehicle Assistance Fullstack website",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "A vehicle assistance website devloped on React, Node.js,MongoDB that allows user to request for vehicle assistance and mehcanics to see the request and guide to location",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
+      { name: "Node.js", color: "blue-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "MongoDB", color: "pink-text-gradient" },
     ],
-    image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    youtubeId:"IKOigAiQkjY?si=BWiA2tQNFnm2xGWg",
+
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "Vehicle Assistance Mobile App",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      "A Kotlin Mobile App using MongoDB and Node JS that has two seperate functions for customers and mechanics that allows user to request for vehicle assistance and mehcanics to see the request and guide to location.",
     tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
+      { name: "Kotlin", color: "blue-text-gradient" },
+      { name: "Android App", color: "green-text-gradient" },
+      { name: "Mobile", color: "pink-text-gradient" },
     ],
-    image: mhft,
-    source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
+   youtubeId:"X2jwxMuyXM8?si=bMBVKVe2q3ApO7_y"
+,
   },
+  
   {
-    name: "PayloadMaster",
+    name: "Static Jwellery Website",
     description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
+      "A static jwellery website to showcase usage of basic html,css, and js",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
       { name: "CSS", color: "green-text-gradient" },
       { name: "HTML", color: "pink-text-gradient" },
     ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    image: images,
+    source_code_link: "https://github.com/MANSURTHAPA/static-jewelerywebsite.git",
   },
 ];
